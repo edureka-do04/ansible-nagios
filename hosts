@@ -3,10 +3,12 @@
 # this is your main nagios server and
 # where ansible will deploy it.
 [nagios]
-host-01
+nagios.example.com
 
 # use this for generic Linux servers
 [servers]
+node01.example.com
+node02.example.com
 
 # inherits servers checks, includes http
 [webservers]
